@@ -68,7 +68,7 @@ Thanks in advance :)
     line-height: normal;
     text-transform: uppercase;
   }
-  header, .banner-section, .online-game-section, .genre-section, .online-games-section {
+  header, .banner-section, .online-game-section, .genre-section, .play-games-section {
     padding: 30px 0;
   }
 /* Body  */
@@ -187,7 +187,6 @@ Thanks in advance :)
 /* Online games section  */
   .card {
     text-align: center;
-    padding: 5px;
     margin-top: 30px;
   }
   .card-image {
@@ -233,7 +232,8 @@ Thanks in advance :)
     border: 1px solid #8758F1;
     border-radius: 3px;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   .genre-icon {
     width: 30px;
@@ -301,12 +301,49 @@ Thanks in advance :)
   }
 
 /* Media Queries  */
+/* Tab View */
+@media screen and (min-width:768px) {
+  .btn-primary {
+    padding: 10px 30px;
+  }
+  main {
+    padding: 0 60px;
+  }
+/* Banner section */
+  .banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .banner-description {
+    order: 1;
+  }
+  .banner-image {
+    order: 2;
+    max-width: 48%;
+  }
+  /* Online game section */
+  .cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .card {
+    max-width: 46%;
+  }
+  /* Genre section */
+  .genre-section {
+    text-align: center;
+  }
+}
 /* PC view */
 @media screen and (min-width:1024px){
   /* Repeated styles  */
   .btn-primary {
     padding: 15px 40px;
   }
+  /* Header */
   header {
     flex-direction: row;
     justify-content: space-between;
@@ -327,16 +364,7 @@ Thanks in advance :)
     margin-left: 10px;
   }
 /* Banner Section */
-  .banner-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .banner-description {
-    order: 1;
-  }
   .banner-image {
-    order: 2;
     margin-left: 40px;
   }
   .banner-description h1 {
@@ -349,14 +377,9 @@ Thanks in advance :)
     text-align: center;
   }
   .cards-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
     margin-top: 40px;
   }
-  .cards-container > div {
-    margin: 0;
-    padding: 0;
+  .card {
     max-width: 23%;
   }
   .play-games-section {
@@ -372,10 +395,4 @@ Thanks in advance :)
     margin-left: 40px;
     max-width: 40%;
   }
-
-
-
-
-
-
 }
