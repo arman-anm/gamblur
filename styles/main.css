@@ -8,10 +8,23 @@
     font-size: 16px;
   }
   
-  body, h1, h2, h3, p, ol, ul {
+  body, h1, h2, h3, p, ol, ul,figure {
     margin: 0;
     padding: 0;
     font-weight: normal;
+  }
+  h2 {
+    color: #0B0223;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  p {
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 10px;
   }
   
   ol, ul {
@@ -28,7 +41,10 @@
   }
 /* Repeated Styles */
   .styled-text {
-    color: #FF42A5;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .btn-primary {
     display: inline-flex;
@@ -40,6 +56,9 @@
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+  }
+  header, .banner-section, .online-game-section {
+    padding: 30px 0;
   }
 /* Body  */
   body {
@@ -53,7 +72,6 @@
   }
 /* Header */
   header {
-    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,15 +93,15 @@
     text-align: center;
     font-size: 18px;
     font-weight: 500;
-    padding: 20px;
+    padding: 10px;
   }
   .nav-follow-us-items-container {
+    padding: 10px 20px;
+    margin-top: 10px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding: 20px;
     display: flex;
     align-items: center;
-    margin-top: 10px;
   }
   .nav-follow-us-texts {
     color: #3C354F;
@@ -99,9 +117,7 @@
   }
 
 /* Banner section */
-  .banner-section {
-    padding: 50px 0;
-  }
+  
   .banner-description {
     padding: 20px 0;
   }
@@ -120,7 +136,7 @@
   }
   .banner-features {
     color: #534C64;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
   }
   .banner-features > div {
@@ -128,15 +144,15 @@
     padding: 10px 0;
   }
   .banner-features img{
-    height: 20px;
+    height: 18px;
     width: auto;
     margin-right: 12px;
-    margin-top: 4px;
+    margin-top: 3px;
   }
   .banner-buttons-container {
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .sign-in-button {
     background-color: #F948B2;
@@ -146,3 +162,19 @@
     background-color: #4EC5F7;
   }
 
+/* Online games section  */
+  .card {
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+  }
+  .card-image {
+    border-radius: 5px;
+  }
+  .card-image-caption {
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 5px;
+  }
