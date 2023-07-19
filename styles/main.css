@@ -68,7 +68,6 @@
     line-height: normal;
     font-weight: 400;
     margin: 0 auto;
-    padding: 0 30px;
   }
 /* Header */
   header {
@@ -121,6 +120,10 @@
     margin-top: 5px;
   }
 
+  main {
+    padding: 0 30px;
+
+  }
 /* Banner section */
   
   .banner-description {
@@ -200,7 +203,8 @@
   .play-games-images-container img:nth-child(2) {
     max-width: 40%;
     transform: translate(150%, -50%);
-    margin-bottom: -25%;  /* readjusts the space between play games and genre section */
+    margin-bottom: -80px; 
+     /* readjusts the space between play games and genre section */
 
   }
 
@@ -235,5 +239,50 @@
   .genre-button:hover {
     color: #F948B2;
     border: 1px solid #F948B2;
+  }
+
+/* Footer section  */
+  footer {
+    background-color: #0B0223;
+    padding: 60px;
+  }
+  .footer-logo {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .footer-logo .logo-text {
+    color: white;
+  }
+  .footer-account, .footer-social-links, .footer-policy-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    gap: 15px;
+    justify-content:center;
+    margin-bottom: 40px;
+  }
+  .footer-account a {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .footer-social-links img {
+    max-height: 24px;
+    width: auto;
+  }
+  .footer-policy-links a{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .footer-copyright {
+    color: rgba(255, 255, 255, 0.60);
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
   }
 
