@@ -302,12 +302,16 @@ Thanks in advance :)
 /* Media Queries  */
 /* PC view */
 @media screen and (min-width:1024px){
+  /* Repeated styles  */
+  .btn-primary {
+    padding: 20px 40px;
+  }
   header {
     flex-direction: row;
     justify-content: space-between;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 5%;
+    padding: 0 30px;
     padding-top: 60px;
   }
   nav {
@@ -321,6 +325,40 @@ Thanks in advance :)
     margin: 0;
     margin-left: 10px;
   }
+/* Banner Section */
+  .banner-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .banner-description {
+    order: 1;
+  }
+  .banner-image {
+    order: 2;
+  }
+  .banner-description h1 {
+    font-size: 48px;
+  }
+  .banner-styled-text {
+    font-size: 96px;
+  }
+  .online-game-section {
+    text-align: center;
+  }
+  .cards-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+  }
+  .cards-container > div {
+    margin: 0;
+    padding: 0;
+    max-width: 23%;
+  }
+
+
 
 
 
