@@ -130,7 +130,7 @@ Thanks in advance :)
     margin-left: 10px;
     margin-top: 5px;
   }
-
+/* Main */
   main {
     max-width: 1440px;
     margin: 0 auto;
@@ -138,7 +138,6 @@ Thanks in advance :)
 
   }
 /* Banner section */
-  
   .banner-description {
     padding: 20px 0;
   }
@@ -216,9 +215,7 @@ Thanks in advance :)
   .play-games-images-container img:nth-child(2) {
     max-width: 40%;
     transform: translate(150%, -50%);
-    margin-bottom: -80px; 
-     /* readjusts the space between play games and genre section */
-
+    margin-bottom: -80px; /* readjusts the space between play games and genre section */
   }
 
 /* Genre section */
@@ -303,9 +300,11 @@ Thanks in advance :)
 /* Media Queries  */
 /* Tab View */
 @media screen and (min-width:768px) {
+  /* Repeated styles  */
   .btn-primary {
     padding: 10px 30px;
   }
+  /* Main */
   main {
     padding: 0 60px;
   }
