@@ -57,7 +57,7 @@
     line-height: normal;
     text-transform: uppercase;
   }
-  header, .banner-section, .online-game-section {
+  header, .banner-section, .online-game-section, .genre-section {
     padding: 30px 0;
   }
 /* Body  */
@@ -176,5 +176,39 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    margin-top: 5px;
+    margin-top: 10px;
   }
+
+/* Genre section */
+.genre-section {
+  max-width: 760px;
+  margin: 0 auto;
+}
+  .genre-buttons-container {
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    border: 1px solid #F948B2;
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .genre-icon {
+    width: 30px;
+    height: auto;
+    margin-right: 14px;
+  }
+  .genre-button {
+    color: #0B0223;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 10px;
+  }
+  .genre-button:hover {
+    color: #F948B2;
+    border: 1px solid #F948B2;
+  }
+
