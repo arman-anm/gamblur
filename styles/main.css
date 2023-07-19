@@ -17,14 +17,14 @@
     color: #0B0223;
     font-size: 32px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
   p {
     color: #534C64;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
   
   ol, ul {
@@ -57,7 +57,7 @@
     line-height: normal;
     text-transform: uppercase;
   }
-  header, .banner-section, .online-game-section, .genre-section {
+  header, .banner-section, .online-game-section, .genre-section, .online-games-section {
     padding: 30px 0;
   }
 /* Body  */
@@ -184,11 +184,31 @@
     margin-top: 10px;
   }
 
+/* Play Games online section */
+  .play-games-images-container {
+    margin-top: 30px;
+  }
+
+  .play-games-images-container img {
+    border-radius: 3px;
+    display: block;
+  }
+  .play-games-images-container img:nth-child(1) {
+    max-width: 80%;
+  }
+  
+  .play-games-images-container img:nth-child(2) {
+    max-width: 40%;
+    transform: translate(150%, -50%);
+    margin-bottom: -25%;  /* readjusts the space between play games and genre section */
+
+  }
+
 /* Genre section */
-.genre-section {
-  max-width: 760px;
-  margin: 0 auto;
-}
+  .genre-section {
+    max-width: 760px;
+    margin: 0 auto;
+  }
   .genre-buttons-container {
     display: flex;
     flex-shrink: 0;
