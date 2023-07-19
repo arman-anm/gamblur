@@ -100,11 +100,11 @@ Thanks in advance :)
     width: auto;
     margin-top: 5px;
   }
-  .logo-text {
+  .logo-text a {
     font-size: 48px;
     font-weight: 700;
     margin-left: 20px;
-    color:#8758F1;
+    color:#551A8B;
   }
   .nav-items-container a {
     display: inline-block;
@@ -302,10 +302,6 @@ Thanks in advance :)
     max-width: 300px;
     margin: 0 auto;
     margin-bottom: 30px;
-  }
-  .footer-logo .logo-text {
-    color:#8758F1;
-
   }
   .footer-account, .footer-social-links, .footer-policy-links {
     display: flex;
