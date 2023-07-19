@@ -146,6 +146,7 @@ Thanks in advance :)
     color: #0B0223;
     font-size: 32px;
     font-weight: 600;
+   
   }
   .banner-styled-text {
     font-size: 64px;
@@ -200,7 +201,7 @@ Thanks in advance :)
     margin-top: 10px;
   }
 
-/* Play Games online section */
+/* Play Games section */
   .play-games-images-container {
     margin-top: 30px;
   }
@@ -223,14 +224,13 @@ Thanks in advance :)
 
 /* Genre section */
   .genre-section {
-    max-width: 760px;
-    margin: 0 auto;
+    margin-top: 30px;
   }
   .genre-buttons-container {
     display: flex;
     flex-shrink: 0;
     flex-wrap: wrap;
-    border: 1px solid #F948B2;
+    border: 1px solid #8758F1;
     border-radius: 3px;
     padding: 20px;
     margin-top: 20px;
@@ -284,6 +284,7 @@ Thanks in advance :)
   .footer-social-links img {
     max-height: 24px;
     width: auto;
+    padding: 0 10px;
   }
   .footer-policy-links a{
     color: rgba(255, 255, 255, 0.60);
@@ -336,6 +337,7 @@ Thanks in advance :)
   }
   .banner-image {
     order: 2;
+    margin-left: 40px;
   }
   .banner-description h1 {
     font-size: 48px;
@@ -357,6 +359,20 @@ Thanks in advance :)
     padding: 0;
     max-width: 23%;
   }
+  .play-games-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .play-games-images-container {
+    order: 1;
+  }
+  .play-gemes-description {
+    order: 2;
+    margin-left: 40px;
+    max-width: 40%;
+  }
+
 
 
 
