@@ -17,6 +17,7 @@ Thanks in advance :)
 /* Removing browser styles */
   html {
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
   }
   
   body, h1, h2, h3, p, ol, ul,figure {
@@ -100,7 +101,6 @@ Thanks in advance :)
     margin-top: 5px;
   }
   .logo-text {
-    color: #0B0223;
     font-size: 48px;
     font-weight: 700;
     margin-left: 20px;
