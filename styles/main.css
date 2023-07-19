@@ -127,7 +127,7 @@ Thanks in advance :)
   .nav-follow-us-links img {
     height: var(--fs-btn);
     width: auto;
-    margin-left: 1px;
+    margin-left: 10px;
     margin-top: 5px;
   }
 
@@ -299,3 +299,29 @@ Thanks in advance :)
     font-weight: 500;
   }
 
+/* Media Queries  */
+/* PC view */
+@media screen and (min-width:1024px){
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 5%;
+    padding-top: 60px;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  nav > ul {
+    display: flex;
+  }
+  .nav-follow-us-items-container {
+    margin: 0;
+    margin-left: 10px;
+  }
+
+
+
+}
